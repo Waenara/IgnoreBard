@@ -7,7 +7,8 @@ try:
     from bardapi import Bard
     import json
 except:
-    os.system('pip install -U discord.py-self==1.9.2 bardapi requests json')
+    os.system('pip install -U discord.py-self==1.9.2 requests json')
+    os.system('pip install -U bardapi')
     import discord
     from discord.ext import commands
     import bardapi
